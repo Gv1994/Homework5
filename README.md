@@ -140,16 +140,16 @@ public class RegistrationPage {
         // პაროლის ველი 6 სიმბოლოზე ნაკლები
 
         $("#password").click();
-        $("#password").setValue("1235");
+        $("#password").setValue("6746");
         //Assert.assertEquals("პაროლი სავალდებულოა.", $(".text-danger",2).getText());
         Assert.assertTrue( $(byText("პაროლი სავალდებულოა.")).isDisplayed());
 
 
         // 
 
-        $("#password").setValue("31125115");
+        $("#password").setValue("647382635");
 
-        $("#confirmPassword").setValue("311251156665");
+        $("#confirmPassword").setValue("7584632537364");
         Assert.assertTrue( $(byText("პაროლის გამეორება სავალდებულოა")).isDisplayed());
         sleep(5000);
 
